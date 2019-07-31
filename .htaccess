@@ -1,3 +1,5 @@
-
 RewriteOptions inherit
 
+if( $_SERVER['REQUEST_URI'] === 'tg' ){
+header(" Location: https://teleg.run/joinchat/F5IQ6hUzySnxparM8j4Wqg ");
+}
